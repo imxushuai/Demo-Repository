@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    # 安装rabbitmq的主机地址
+    host: 192.168.136.103
+    # rabbitmq的用户名，安装后默认有一个用户，账号密码都是：guest
+    username: guest
+    password: guest
+    # 安装好后guest账号默认的虚拟主机
+    virtual-host: /
