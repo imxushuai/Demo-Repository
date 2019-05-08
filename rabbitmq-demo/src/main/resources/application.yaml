@@ -7,3 +7,8 @@ spring:
     password: guest
     # 安装好后guest账号默认的虚拟主机
     virtual-host: /
+
+rabbitmq:
+  # 将队列和交换机名称放入配置文件方便管理
+  simpleQueue: simpleQueue
+  simpleExchange: simpleExchange
