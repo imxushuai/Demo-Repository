@@ -7,15 +7,27 @@
 > 官方教程链接：[https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
 
 #### simple
+
+![](https://raw.githubusercontent.com/imxushuai/ForPicGo/master/006ifTg0gy1g2qt642cnfj30aw01nwec.jpg)
+
 `Hello World`，使用`RabbitMQ`进行简单的消息发送和接收。
 
 #### work
+
+![](https://raw.githubusercontent.com/imxushuai/ForPicGo/master/006ifTg0gy1g2qut29j13j3098033a9z.jpg)
+
 `Work`，Work模式为竞争消费者模式，多个消费者绑定在同一个队列中，实现一个队列中的消息被多个消费者消费。
 
 #### Fanout
+
+![](https://raw.githubusercontent.com/imxushuai/ForPicGo/master/006kPtiPgy1g2rmvbxzjrj30c2033q2x.jpg)
+
 `发布/订阅`模型中的`Fanout`，即通过广播的方式将消息发送到多个队列。
 
 #### Direct
+
+![](https://raw.githubusercontent.com/imxushuai/ForPicGo/master/direct-exchange.png)
+
 `发布/订阅`模型中的`Direct`，将消息发送给对应`RoutingKey`的队列。
 
 #### Topic
@@ -32,4 +44,4 @@
 
 博客文章：
 
-[RabbitMQ详解](https://www.xushuai.fun/2019/05/08/RabbitMQ%E8%AF%A6%E8%A7%A3/)
+[RabbitMQ详解](https://www.imxushuai.com/2019/05/08/RabbitMQ%E8%AF%A6%E8%A7%A3/)
