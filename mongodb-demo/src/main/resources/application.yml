@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      # 主机地址
+      host: 192.168.136.104
+      # 端口号, 默认为27017 可省略
+      port: 27017
+      # 数据库名
+      database: imxushuai
