@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+    <title></title>
+
+    <!--/*/ <th:block th:include="fragments/headerinc :: head"></th:block> /*/-->
+</head>
+<body>
+<div class="container">
+    <!--/*/ <th:block th:include="fragments/header :: header"></th:block> /*/-->
+    <div th:if="${not #lists.isEmpty(jobCrons)}">
+        <h2>可选同步时间间隔选项列表</h2>
+        <table class="table table-striped">
+            <tr>
+                <th>Id</th>
+                <th>Cron表达式</th>
+                <th>当前是否启用</th>
+                <th>描述</th>
+            </tr>
+            <tr th:each="job : ${jobCrons}">
+                <td th:text="${job.id}"><a href="/product/${job.id}">Id</a></td>
+                <td th:text="${job.cron}">cron</td>
+                <td th:text="${job.current=='1'}?'启用':'禁用'">current</td>
+                <td th:text="${job.description}">description</td>
+                <!--<td><a th:href="${ '/jobCron/' + job.id}">View</a></td>-->
+                <!--<td><a th:href="${'/jobCron/edit/' + job.id}">Edit</a></td>-->
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+</body>
+</html>
