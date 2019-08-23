@@ -1,6 +1,3 @@
 # Demo-Repository
 
-### Elasticsearch-Demo
-
-> 使用Spring Data Elasticsearch完成对Elasticsearch的基本操作
-
+详细的README请移步到相应的子文件夹。
