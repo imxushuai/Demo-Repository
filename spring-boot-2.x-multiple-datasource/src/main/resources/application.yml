@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    # primary数据库
+    primary:
+      jdbc-url: jdbc:mysql:///primary?characterEncoding=utf-8&serverTimezone=GMT
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+    # secondary数据库
+    secondary:
+      jdbc-url: jdbc:mysql:///secondary?characterEncoding=utf-8&serverTimezone=GMT
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 18080
