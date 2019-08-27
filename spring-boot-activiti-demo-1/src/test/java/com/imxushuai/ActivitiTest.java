@@ -12,6 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -79,9 +80,10 @@ public class ActivitiTest {
         taskService.complete(task.getId());
 
         // 总经理审批
-//      Task task = taskService.createTaskQuery()
+//        List<Task> list = taskService.createTaskQuery()
 //                .processDefinitionKey("qingjia")// 查询请假流程
-//                .taskAssignee("imxushuai");// 查询 imxushuai 当前代办的任务
+//                .taskAssignee("imxushuai")// 查询 imxushuai 当前代办的任务
+//                .list();
         params = new HashMap<>();
         params.put("remark", "批准，注意安全");
         taskService.complete(task.getId(), params);
