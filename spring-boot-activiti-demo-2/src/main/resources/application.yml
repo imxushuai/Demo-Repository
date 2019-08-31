@@ -1,0 +1,14 @@
+spring:
+  activiti:
+    # 自动建表
+    database-schema-update: true
+    history-level: full
+    db-history-used: true
+    copy-variables-to-local-for-tasks: false
+  datasource:
+    url: jdbc:mysql:///activiti?characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 18080
