@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.imxushuai</groupId>
-    <artifactId>jrs-303-demo</artifactId>
+    <artifactId>jsr-303-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>jrs-303-demo</name>
-    <description>JRS-303校验</description>
+    <name>jsr-303-demo</name>
+    <description>JSR-303校验</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

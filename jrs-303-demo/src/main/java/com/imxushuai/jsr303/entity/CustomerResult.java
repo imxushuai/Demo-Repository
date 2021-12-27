@@ -1,4 +1,4 @@
-package com.imxushuai.jrs303.entity;
+package com.imxushuai.jsr303.entity;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.imxushuai.jrs303.service;
+package com.imxushuai.jsr303.service;
 
-import com.imxushuai.jrs303.entity.User;
+import com.imxushuai.jsr303.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

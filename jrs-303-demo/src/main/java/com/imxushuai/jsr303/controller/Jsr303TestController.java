@@ -1,27 +1,21 @@
-package com.imxushuai.jrs303.controller;
+package com.imxushuai.jsr303.controller;
 
-import com.imxushuai.jrs303.entity.CustomerResult;
-import com.imxushuai.jrs303.entity.User;
-import com.imxushuai.jrs303.service.UserService;
-import com.imxushuai.jrs303.valid.AddGroup;
-import com.imxushuai.jrs303.valid.UpdateGroup;
-import org.apache.commons.lang3.StringUtils;
+import com.imxushuai.jsr303.entity.CustomerResult;
+import com.imxushuai.jsr303.entity.User;
+import com.imxushuai.jsr303.service.UserService;
+import com.imxushuai.jsr303.valid.AddGroup;
+import com.imxushuai.jsr303.valid.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
-import java.util.HashMap;
-import java.util.Map;
-
 @RestController
 @RequestMapping("api/user")
-public class Jrs303TestController {
+public class Jsr303TestController {
 
     @Autowired
     private UserService userService;

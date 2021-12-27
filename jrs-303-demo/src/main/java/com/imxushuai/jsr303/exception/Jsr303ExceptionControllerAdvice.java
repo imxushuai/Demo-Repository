@@ -1,6 +1,6 @@
-package com.imxushuai.jrs303.exception;
+package com.imxushuai.jsr303.exception;
 
-import com.imxushuai.jrs303.entity.CustomerResult;
+import com.imxushuai.jsr303.entity.CustomerResult;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -14,7 +14,7 @@ import java.util.Map;
  * 统一异常处理
  */
 @RestControllerAdvice
-public class Jrs303ExceptionControllerAdvice {
+public class Jsr303ExceptionControllerAdvice {
 
     /**
      * MethodArgumentNotValidException异常统一处理

@@ -1,8 +1,8 @@
-package com.imxushuai.jrs303.entity;
+package com.imxushuai.jsr303.entity;
 
-import com.imxushuai.jrs303.valid.AddGroup;
-import com.imxushuai.jrs303.valid.ListValue;
-import com.imxushuai.jrs303.valid.UpdateGroup;
+import com.imxushuai.jsr303.valid.AddGroup;
+import com.imxushuai.jsr303.valid.ListValue;
+import com.imxushuai.jsr303.valid.UpdateGroup;
 import lombok.Data;
 
 import javax.validation.constraints.Min;

@@ -1,4 +1,4 @@
-# JRS-303
+# JSR-303
 
 [JSR-303](https://link.jianshu.com/?t=https://jcp.org/en/jsr/detail?id=303) 是 Java EE 6 中的一项子规范，叫做 Bean Validation，官方参考实现是hibernate Validator。
 
@@ -6,7 +6,7 @@ Bean Validation 为 JavaBean 验证定义了相应的元数据模型和 API。�
 
 # 最佳实践
 
-JRS 303校验从入门到进阶
+JSR 303校验从入门到进阶
 
 1. 基本使用
 

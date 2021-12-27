@@ -1,4 +1,4 @@
-package com.imxushuai.jrs303.valid;
+package com.imxushuai.jsr303.valid;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
